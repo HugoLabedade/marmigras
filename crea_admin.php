@@ -31,8 +31,8 @@ if (!empty($_POST["username"])) {
                 <h1><img id="logomarmi" src="./MARMIGRAS2.png" alt="logo du site"></h1>
             </a>
         </div>
-            <form class="searchbar" action='./login.php' method='post'>
-            <input type='text' name='rechercher' size="100" placeholder="Rechercher"/></form>
+            <form class="searchbar" action='./resultat_search_bar.php' method='get'>
+            <input type='text' name='query' placeholder="Rechercher"/></form>
         <div class="connex">     
             <form action='./connexion.php' method='post'>
             <a href="./connexion.php">Connexion</a></form>

@@ -77,8 +77,8 @@ if (!empty($_POST["id_cli_pass"])) {
                     <h1><img id="logomarmi" src="./MARMIGRAS2.png" alt="logo du site"></h1>
                 </a>
             </div>
-            <form class="searchbar" action='./login.php' method='post'>
-            <input type='text' name='rechercher' placeholder="Rechercher"/></form>
+            <form class="searchbar" action='./resultat_search_bar.php' method='get'>
+            <input type='text' name='query' placeholder="Rechercher"/></form>
             <div class="connex">     
                 <form action='./administrateur.php' method='post'>
                 <a href="./deconnexion.php">Déconnexion</a></form>
@@ -126,25 +126,4 @@ if (!empty($_POST["id_cli_pass"])) {
             </ul>
     </div>
     </form>
-    
-    <script>
-        window.onscroll = function() {myFunction()};
-
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-
-        function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
-        }
-    </script>
-    <script>
-        $('.form-btn').click(function(){
-        $(this).next().toggleClass('show-form');
-        });
-    </script>
-
 </body>

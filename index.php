@@ -4,6 +4,7 @@ include_once('config.php');
 
 
 
+
 ?>
 
 
@@ -33,8 +34,8 @@ include_once('config.php');
             </ul>
         </nav>
         <div>
-            <form class="searchbar" action='./resultat_search_bar.php' method='post'>
-            <input type='text' name='rechercher' placeholder="Rechercher"/></form>
+            <form class="searchbar" action='./resultat_search_bar.php' method='get'>
+            <input type='text' name='query' placeholder="Rechercher"/></form>
         </div>
         <div class="connex">     
             <form action='./compte.php' method='post'>
