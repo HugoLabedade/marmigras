@@ -5,4 +5,4 @@ Pour se faire, vous aurez besoin d'installer Xampp et de le configurer afin de p
 Ensuite, il vous faudra créer une base de donnée nommée "Marmigras" sur PhpMyAdmin et exécuter le script MySQL, fourni dans le dossier, dans le lieu approprié de la BDD sur PhpMyAdmin.
 
 Maintenant, pour accéder au site depuis votre moteur de recherche, tapez l'url suivante : 
-"http://localhost:<votre port>/projet_web/mes_recettes.php"
+"http://localhost:<votre port>/projet_web/index.php"
