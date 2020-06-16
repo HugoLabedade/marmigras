@@ -173,7 +173,7 @@ if (!empty($_POST["nom_recette"])) {
             <input type='text' name='ingredient_8' placeholder="Ingredient 8 (facultatif)"/></br>
             <p style="margin-top: 15px;">Uploadez une photo pour votre recette !</p>
             <input type='file' name='fichier' placeholder="Photo de votre recette" /><br>
-            <textarea type='text' style="width: 500px; height: 200px;" name='descriptif' placeholder="Description de la recette"></textarea></br>
+            <textarea type='text' style="width: 500px; height: 200px;" name='descriptif' placeholder="Description de la recette (veuillez ne pas mettre d'apostrophe)"></textarea></br>
             <button class="bouton2" type='submit'>VALIDER</button>
         </form>
     </div>
