@@ -104,7 +104,7 @@ if (!empty($_POST["nom_recette"])) {
             $prout3 = $query8->fetch();
             $dest = $prout3["mail_client"];
             $sujet = "Marmigras";
-            $corp = htmlspecialchars("Super ! Vous avez une nouvelle recette sur votre compte Marmigras qui comporte vos ingrédients favoris. Le nom de cette recette est ".$_POST["nom_recette"]. ".");
+            $corp = htmlspecialchars("Super ! Vous avez une nouvelle recette sur votre compte Marmigras qui comporte vos ingredients favoris. Le nom de cette recette est ".$_POST["nom_recette"]. ".");
             $headers = "From: marmigras@gmail.com";
 
             if (mail($dest, $sujet, $corp, $headers)) {
