@@ -14,7 +14,7 @@ if (!empty($_POST["username"])) {
 
     $dest = $prout3["mail_client"];
     $sujet = "Marmigras";
-    $corp = htmlspecialchars("Bienvenue sur Marmigras, Vous venez de creer un compte sur notre site. Vous pouvez maintenant creer vos recettes et naviguer sur notre site.");
+    $corp = htmlspecialchars("Bienvenue sur Marmigras, vous venez de creer un compte sur notre site. Vous pouvez maintenant creer vos recettes et naviguer sur notre site.");
     $headers = "From: marmigras@gmail.com";
 
             if (mail($dest, $sujet, $corp, $headers)) {
